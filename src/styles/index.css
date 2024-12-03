@@ -1,12 +1,43 @@
+body {
+    background-color: rgb(230, 199, 255);
+}
 
-/* 
+.container, h2 {
+    justify-content: center;
+    text-align: center;
+    color:rgb(51, 13, 49);
+    
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.simpleCounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    border: solid, rgb(51, 13, 49);
+    background-color: rgb(115, 39, 158);
+    color: rgb(225, 226, 255);
+    border-radius: 5px;
 
-*/
+}
+
+.simpleCounter, div {
+    padding:  5px 20px;
+    margin: 0 6px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+.six {
+    background-color: rgb(103, 39, 158);
+    border-radius: 10px;
+}
+
+.icon {
+    background-color: rgb(103, 39, 158);
+    border-radius: 10px;
+}
+
+
+
